@@ -10,24 +10,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class SplashActivity extends AppCompatActivity {
-
-    private int a ;
-
-    @Override
-    public String toString() {
-        return "SplashActivity{" +
-                "a=" + a +
-                '}';
-    }
-
-    public int getA() {
-        return a;
-    }
-
-    public void setA(int a) {
-        this.a = a;
-    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
